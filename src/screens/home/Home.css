@@ -1,0 +1,49 @@
+@media (max-width: 1100px) {
+    .cardContainer .restaurantCard {
+        width: 30%;
+    }
+}
+
+@media (max-width: 660px) {
+    .cardContainer .restaurantCard {
+        width: 93%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .cardContainer .restaurantCard {
+        width: 46%;
+    }
+}
+
+.cardContainer {
+    margin: 0 auto;
+    width: 93%;
+}
+
+.cardContainer .restaurantCard {
+    width: 22%;
+    cursor: pointer;
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ratingContainer {
+    opacity: 0.8;
+    color: #FFFFFF;
+    background-color: #DAA520;
+    padding: 0 0.8rem;
+    font-size: 16px;
+}
+
+.ratingContainer p,
+.costContainer p {
+    margin: 0.5rem 0;
+}
+
+
